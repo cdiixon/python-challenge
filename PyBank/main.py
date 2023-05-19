@@ -51,8 +51,8 @@ with open(budget_data_csv) as csvfile:
 print('Financial Analysis:')
 print('----------------------------------------------------')
 print('Total Months:', Months)
-print('Total:', Total_Value)
-print('Average Change:', Average_Value)
+print('Total:', '$',Total_Value)
+print('Average Change:', "%.2f" % Average_Value)
 print('Greatest Increase in Profits:', Greatest_Increase)
 print('Greatest Decrease in Profits:', Greatest_Decrease)
 
