@@ -64,7 +64,7 @@ with open(Text_Path, 'w') as file:
     file.write("----------------------------------------------\n")
     file.write("Total Months: %d\n" % Months)
     file.write("Total: $%d\n" % Total_Value)
-    file.write("Average Change: $%d\n" % Average_Value)
+    file.write("Average Change: $%.2f\n" % Average_Value)
     file.write("Greatest Increase in Profits: %s ($%s)\n" % (Greatest_Increase[0], Greatest_Increase[1]))
     file.write("Greatest Decrease in Profits: %s ($%s)" % (Greatest_Decrease[0], Greatest_Decrease[1]))
     
