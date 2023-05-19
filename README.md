@@ -1,4 +1,5 @@
 PyBank Breakdown:
+
 •	Import both the os and csv to be used in the python script
 •	Designate the file path for our resources files (budget_data_csv = os.path.join("C:\\Users\\cdiix\\OneDrive\\Desktop\\python-challenge\\PyBank\\Resources\\budget_data.csv"). I know I should be able to designate the file path without using the entire pathway but for some reason it wouldn’t work for me I apologize and hope that is okay!
 •	Set and define all variables
@@ -16,6 +17,7 @@ Greatest Increase in Profit: Aug-16 ($1862002)
 Greatest Decrease in Profit: Feb-14 ($-1825558)
 
 PyPoll Breakdown:
+
 •	Import both the os and csv to be used in the python script
 •	Designate the file path for our resources files (election_data_csv = os.path.join("C:\\Users\\cdiix\\OneDrive\\Desktop\\python-challenge\\PyPoll\\Resources\\election_data.csv"). I know I should be able to designate the file path without using the entire pathway but for some reason it wouldn’t work for me I apologize and hope that is okay!
 •	Set and define all variables
