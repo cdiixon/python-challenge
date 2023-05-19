@@ -48,6 +48,8 @@ with open(budget_data_csv) as csvfile:
             Greatest_Decrease[0] = row['Date'] 
 
 #print the results in the terminal
+print('Financial Analysis:')
+print('----------------------------------------------------')
 print('Total Months:', Months)
 print('Total:', Total_Value)
 print('Average Change:', Average_Value)
